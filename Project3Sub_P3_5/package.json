@@ -1,0 +1,26 @@
+{
+    "name": "express-mongodb-app",
+    "version": "1.0.0",
+    "description": "An Express server with MongoDB integration for handling JSON data and saving to a file and database.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "jest",
+      "docs": "jsdoc -c jsdoc.json"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.13.12"
+    },
+    "devDependencies": {
+      "jest": "^27.4.7",
+      "jsdoc": "^4.0.0"
+    },
+    "author": "Sydnie Johnson",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yourusername/express-mongodb-app/issues"
+    },
+    "homepage": "https://github.com/yourusername/express-mongodb-app#readme"
+  }
+  
